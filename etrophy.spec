@@ -17,7 +17,8 @@ URL: 		https://git.enlightenment.org/games/efbb.git
 
 BuildRequires:	pkgconfig(efl) 
 BuildRequires:	pkgconfig(ecore)
-Requires: 	efl 
+BuildRequires:	pkgconfig(elementary)
+Requires: 	efl
 Requires:	ecore
 
 %description
