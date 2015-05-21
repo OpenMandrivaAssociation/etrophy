@@ -8,7 +8,7 @@
 Summary: 	ETrophy is a library that manages scores, trophies and unlockables
 Name: 		etrophy
 Version: 	0.5.1.%{gitdate}
-Release: 	1
+Release: 	0.1
 License:	BSD
 Group: 		System/Libraries
 Source: 	%{name}-%{gitdate}.tar.xz
