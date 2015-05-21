@@ -19,6 +19,7 @@ BuildRequires:	pkgconfig(efl)
 BuildRequires:	pkgconfig(ecore)
 BuildRequires:	pkgconfig(elementary)
 Requires: 	efl
+Requires:	ecore
 
 %description
 ETrophy is a library that manages scores, trophies and unlockables. It will
