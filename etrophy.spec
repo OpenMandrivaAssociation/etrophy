@@ -15,6 +15,11 @@ Source: 	%{name}-%{gitdate}.tar.xz
 Source100:	%{name}.rpmlintrc
 URL: 		https://git.enlightenment.org/games/efbb.git
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(efl) 
 BuildRequires:	pkgconfig(ecore)
 Requires: 	efl 
